@@ -1,26 +1,8 @@
-# Compiled Java files
-*.class
+# Generic Java / IDE / OS rules are in the repository root .gitignore.
+# This file only holds the rule specific to this assignment.
 
-# Package files
-*.jar
-*.war
-*.ear
-
-# IDE specific files
-.idea/
-.vscode/
-*.iml
-*.swp
-*.swo
-*~
-
-# OS specific files
-.DS_Store
-Thumbs.db
-
-# Student submissions (these should be submitted separately)
+# Student submissions (these should be submitted separately, not committed)
 *Player.java
-!SamplePlayer.java
 
-# Log files
-*.log
+# ...except the sample submission, which must stay visible
+!sample_submission/SamplePlayer.java
