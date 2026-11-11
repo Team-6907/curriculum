@@ -86,3 +86,7 @@ java ThreePrisonersDilemma
 ---
 
 祝你好运！记住，最好的策略往往不是最复杂的，而是最适合的。
+
+## 来源与许可说明
+
+`ThreePrisonersDilemma.java` 测试框架改编自一份广泛流传的大学课程练习，文件中未注明原作者，因此不在本仓库 MIT 许可范围内，详见仓库根目录的 [NOTICE.md](../../NOTICE.md)。

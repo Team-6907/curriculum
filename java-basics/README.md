@@ -15,3 +15,7 @@ We gratefully credit Team 3847 Spectrum and Allen Gregory for the original examp
 Team 6907 has retained these examples for introductory programming instruction and made small naming, formatting, and comment edits. We do not claim authorship of the original examples.
 
 This attribution records the source of the material and does not imply an upstream license.
+
+## License status
+
+This chapter is **not** covered by the MIT license at the root of this repository. All rights in the original material remain with its original authors; it is included here with attribution for educational use. See [`NOTICE.md`](../NOTICE.md).
