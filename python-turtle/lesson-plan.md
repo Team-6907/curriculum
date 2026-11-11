@@ -62,7 +62,7 @@
 ├── step5_multiple.py            ← Step 5 代码
 ├── step6_score.py               ← Step 6 代码
 ├── step7_bonus_shooting.py      ← Bonus: 射击+平滑移动（进度快的同学）
-└── meteor_final.py              ← 完整版代码
+└── meteor_demo.py               ← 完整版代码
 ```
 
 ---
@@ -98,7 +98,7 @@
 │  • ☄️ 躲避从天而降的陨石                                     │
 │  • 🏆 坚持越久，分数越高                                      │
 │                                                             │
-│  配图：游戏截图（运行 meteor_final.py 截图）                  │
+│  配图：游戏截图（运行 meteor_demo.py 截图）                   │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 
@@ -118,7 +118,7 @@
 ### 教师活动
 
 1. **演示最终游戏**（2分钟）
-   - 运行 `meteor_final.py`
+   - 运行 `meteor_demo.py`（该文件不在本仓库，位于私有仓库 `Team-6907/curriculum_solutions` 的 `python-turtle/solutions/` 目录）
    - 边玩边解说："用方向键控制飞船，躲避陨石，坚持越久分数越高"
    - 故意"死"一次，展示游戏结束画面
 
@@ -1182,7 +1182,7 @@ def move_asteroids():
 │     • 平滑移动：速度、加速度、摩擦力、onkeyrelease           │
 │     • 射击系统：冷却时间、列表切片 [:]                       │
 │                                                             │
-│  代码在 meteor_final.py，有注释提示！                        │
+│  代码在 meteor_demo.py，有注释提示！                         │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
