@@ -10,11 +10,11 @@
 
 ```
 ├── README.md                      # 仓库说明文档（本文件）
-├── 编程控制单元作业.md             # 详细作业要求与教程
+├── assignment.md                  # 详细作业要求与教程
 ├── ThreePrisonersDilemma.java    # 游戏测试框架
-└── 示例submission/                # 提交示例
-    ├── GongZeruiPlayer.java      # 示例策略代码
-    └── 龚泽睿.txt                 # 示例说明文档
+└── sample_submission/             # 提交示例
+    ├── SamplePlayer.java         # 示例策略代码
+    └── sample_report.txt         # 示例说明文档
 ```
 
 ## 快速开始
@@ -22,11 +22,11 @@
 ### 1. 阅读作业要求
 
 详细的作业说明、游戏规则、策略示例等内容请查看：
-- **[编程控制单元作业.md](编程控制单元作业.md)**
+- **[assignment.md](assignment.md)**
 
 ### 2. 创建你的策略
 
-参考示例文件 `示例submission/GongZeruiPlayer.java`，创建你自己的策略类：
+参考示例文件 `sample_submission/SamplePlayer.java`，创建你自己的策略类：
 
 ```java
 public class YourNamePlayer extends ThreePrisonersDilemma.Player {
@@ -73,7 +73,7 @@ java ThreePrisonersDilemma
 
 ## 学习资源
 
-- 详细教程和策略示例：查看 [编程控制单元作业.md](编程控制单元作业.md)
+- 详细教程和策略示例：查看 [assignment.md](assignment.md)
 - 鼓励使用AI工具（DeepSeek、Kimi、Qwen等）辅助学习和优化策略
 - 可以与同学讨论，但代码必须独立完成
 

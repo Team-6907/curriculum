@@ -20,7 +20,7 @@ Thumbs.db
 
 # Student submissions (these should be submitted separately)
 *Player.java
-!GongZeruiPlayer.java
+!SamplePlayer.java
 
 # Log files
 *.log

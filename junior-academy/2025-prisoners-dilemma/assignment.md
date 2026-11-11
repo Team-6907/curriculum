@@ -149,7 +149,7 @@
 ## 使用模板快速开始
 
 ```java
-public class GongZeruiPlayer extends ThreePrisonersDilemma.Player {
+public class SamplePlayer extends ThreePrisonersDilemma.Player {
 
     /**
      * 选择下一步行动
@@ -262,7 +262,7 @@ if (rate1 > 0.7 && rate2 > 0.7) {
 ### 测试步骤：
 
 1. **准备文件**：
-   - 将你的策略文件（如 `GongZeruiPlayer.java`）放在与 `ThreePrisonersDilemma.java` 同一目录下
+   - 将你的策略文件（如 `SamplePlayer.java`）放在与 `ThreePrisonersDilemma.java` 同一目录下
 
 2. **修改测试文件**：
    - 打开 `ThreePrisonersDilemma.java`
@@ -270,12 +270,12 @@ if (rate1 > 0.7 && rate2 > 0.7) {
    - 将 `numPlayers = 6` 改为 `numPlayers = 7`
    - 在 switch 语句中添加你的策略：
      ```java
-     case 6: return new GongZeruiPlayer(); // 替换为你的类名
+     case 6: return new SamplePlayer(); // 替换为你的类名
      ```
 
 3. **编译和运行**：
    ```bash
-   javac ThreePrisonersDilemma.java GongZeruiPlayer.java
+   javac ThreePrisonersDilemma.java SamplePlayer.java
    java ThreePrisonersDilemma
    ```
 
@@ -292,25 +292,25 @@ if (rate1 > 0.7 && rate2 > 0.7) {
 ### 必需文件
 
 1. **Java文件**：`你的姓名拼音Player.java`
-   - 文件名格式：`GongZeruiPlayer.java`（例如：龚泽睿 → GongZeruiPlayer.java）
-   - 只包含一个类，类名为 `GongZeruiPlayer`（首字母大写，无下划线）
+   - 文件名格式：`ZhangSanPlayer.java`（例如：张三 → ZhangSanPlayer.java）
+   - 只包含一个类，类名为 `ZhangSanPlayer`（首字母大写，无下划线）
    - 继承 `ThreePrisonersDilemma.Player`
    - 实现 `selectAction` 方法
 
    **命名规则：**
-   - 文件名：`你的姓名拼音Player.java`，比如`GongZeruiPlayer.java`
-   - 类名：首字母大写，如 `GongZeruiPlayer`
+   - 文件名：`你的姓名拼音Player.java`，比如`ZhangSanPlayer.java`
+   - 类名：首字母大写，如 `ZhangSanPlayer`
    - 注意：Java不允许文件名包含中文字符，所以必须使用拼音
 
 ### 必需文件
 
 1. **Java文件**：`你的姓名拼音Player.java`
 
-   - 文件名格式：`GongZeruiPlayer.java`
+   - 文件名格式：`ZhangSanPlayer.java`
 
 2. **说明文件**：`你的中文姓名.txt`
 
-   - 文件名格式：`龚泽睿.txt`
+   - 文件名格式：`张三.txt`
 
    - 可以包含你的策略设计思路（可选）
 

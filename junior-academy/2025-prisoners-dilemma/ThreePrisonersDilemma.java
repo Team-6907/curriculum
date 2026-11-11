@@ -5,7 +5,7 @@ public class ThreePrisonersDilemma {
 	 * ===========================================
 	 *
 	 * 使用说明：
-	 * 1. 将你的策略文件（如 GongZeruiPlayer.java）放在同一目录下
+	 * 1. 将你的策略文件（如 SamplePlayer.java）放在同一目录下
 	 * 2. 修改 numPlayers 的值（增加1）
 	 * 3. 在 switch 语句中添加一个新的 case
 	 * 4. 运行这个文件，查看结果（右上角点击运行或使用命令行运行）
@@ -23,7 +23,7 @@ public class ThreePrisonersDilemma {
 		case 4: return new FreakyPlayer();
 		case 5: return new T4TPlayer();
 		// 在这里添加你的策略，例如：
-		//case 6: return new GongZeruiPlayer();
+		//case 6: return new SamplePlayer();
 		}
 		throw new RuntimeException("Bad argument passed to makePlayer");
 	}
