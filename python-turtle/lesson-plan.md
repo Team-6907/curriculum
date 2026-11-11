@@ -53,7 +53,7 @@
 
 ```
 教学文件/
-├── 教案.md                      ← 本文件
+├── lesson-plan.md               ← 本文件
 ├── PPT/                         ← PPT文件夹（按下方指引制作）
 ├── step1_window_ship.py         ← Step 1 代码
 ├── step2_movement.py            ← Step 2 代码

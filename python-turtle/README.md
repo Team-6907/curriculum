@@ -17,7 +17,7 @@
 ```
 Python-Turtle-Tutorial/
 ├── README.md           # 本文件
-├── 教案.md             # 详细教案（含PPT制作指引）
+├── lesson-plan.md      # 详细教案（含PPT制作指引）
 ├── for_student/        # 📝 学生练习代码（带填空）
 │   ├── README.md
 │   ├── step1_window_ship.py
@@ -54,7 +54,7 @@ Python-Turtle-Tutorial/
 
 ### 教师使用
 
-1. 阅读 `教案.md` 了解教学流程
+1. 阅读 `lesson-plan.md` 了解教学流程
 2. 运行 `solutions/meteor_final.py` 预览最终效果
 3. 准备 PPT（按教案指引制作）
 4. 分发 `for_student/` 文件夹给学生
